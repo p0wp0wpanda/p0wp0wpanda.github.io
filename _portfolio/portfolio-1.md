@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "John Conway's Game of Life"
+excerpt: "Our take on coding John Conway's Game of life, the cellular automaton<br/><img src='/images/Game of Life thumbnail.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+John Conway's Game of Life is a cellular automaton based on 4 simple rules
+
+- If a live cell has less than 2 alive neighbors, it will die
+- If a live cell has 2 or 3 alive neighbors, it will continue to live
+- If a live cell has more than 3 live neighbors, it will die
+- If a dead cell has exactly 3 live neighbors, it will come alive
+
+Check out an interactive, Javascript based implementation [here](https://manig1729.github.io/game-of-life-js/)
