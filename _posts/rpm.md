@@ -1,0 +1,24 @@
+---
+title: 'Raven's Progressive Matrices and the Bongard Problems'
+date: 2023-04-05
+permalink: /posts/2023/06/rpm-bgp/
+tags:
+  - posts
+---
+
+[Raven's Progressive Matrics](https://en.wikipedia.org/wiki/Raven%27s_Progressive_Matrices) and the [Bongard Problems](https://www.oebp.org/welcome.php)
+are each sets of puzzles which are often used to test abstract reasoning for AI. Both of them are visual puzzles that require some level of 
+concept understanding to solve accurately. Though there is some criticism that these two are idealized domains on which AI systems have seen 
+reasonable success (See the [ConceptARC benchmark](https://arxiv.org/abs/2305.07141)), nevertheless, they remain a good way to test how much of an
+abstract, underlying concept a system has really been able to grasp.
+
+Raven's Progressive Matrices(RPM) are a classic test of intelligence, even administered to humans to gauge reasoning ability. RPM questions generally
+consist of shape with a missing piece and around 6 to 8 options to fill in said missing piece. While many state-of-the-art deep learning models are able
+to perform well on RPM and RPM like tasks, it is not always apparent how much of the underlying concept has been understood by the model.
+
+Bongard problems are visual similar to RPM but the objective is different. Visually, they consist of 6 images on one side of a dividing line and 6
+more images on the other side. However, instead of selecting a shape from a set of options, Bongard problems require the solver to find the 'difference'
+between the 2 sets of images ie: what is a relatively elegant description that touches on a core property that all images on the left share, but none on
+the right possess (or vice versa). By taking the options out of the picture, Bongard problems can expose a critical gap in AI systems today, the excel
+at the visual perception task, of 'seeing' the image but struggle on drawing a relevant concept out of it. (Interesting page dedicated to documenting
+Bongard Problems as [logical predicates](https://www.oebp.org/search.php?q=TRIANGLE&meta=no))
