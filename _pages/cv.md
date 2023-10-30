@@ -28,4 +28,4 @@ Research Interests
 * Interpretable AI
 * Automated Reasoning
   
-You can find my full CV [here](/files/paper1.pdf)
+You can find my full CV [here](/files/atharva_cv.pdf)
