@@ -21,7 +21,7 @@ The authors go on to show that their generated knowledge graph ${ATOMIC}^{10x}$ 
 The authors call this methodology $machine \rightarrow corpus \rightarrow machine$ distillation. The knowledge graph they ask the general purpose LLM
 to generate is based on the ${ATOMIC}^{20}_{20}$ knowledge graph and takes the form of a $(Event | Relation | Inference)$ triplet. 
 
-<img width="891" alt="image" src="https://github.com/p0wp0wpanda/p0wp0wpanda.github.io/assets/43241208/61e54e15-d34c-4c61-a7ee-1ad629b3204f">
+<img width="891" alt="image" src="/images/atomic_triplet.jpg">
 The knowledge graph's structure.
 
 <br>
